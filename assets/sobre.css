@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #1e0239;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  margin-left: -250px;
+  margin-top: -50px;
+}
+
+button {
+  width: 17vh;
+  background-color: #1e0239;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nome {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+@keyframes moveCimaEBaixo {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-40px);
+  }
+}
+
+.foto {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 70vh;
+  margin-right: 50px;
+  box-shadow: 7px 7px 10px #1e0210;
+  border-radius: 100%;
+}
+
+.foto img {
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+}
+
+button {
+  width: 17vh;
+  font-size: 18px;
+  background-color: #1e0239;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "Open Sans", sans-serif;
+  transition: color 0.3s;
+}
+button:hover {
+  color: #12d640;
+}
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 600px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 200vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.sobreMim {
+  margin-right: 20vh;
+  margin-left: -200px;
+  box-shadow: 7px 7px 20px #1e0220;
+}
+
+.divPai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ola {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.city {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.agua {
+  font-weight: normal;
+}
+
+.aniver {
+  margin-left: 150px;
+}
+
+.butHome {
+  transition: transform 1s;
+  text-shadow: 13px 13px 13px #1e0220;
+}
+.butHome:hover {
+  transform: scale(1.08, 1.08);
+}
+
+.butContato {
+  transition: transform 1s;
+  text-shadow: 13px 13px 13px #1e0220;
+}
+.butContato:hover {
+  transform: scale(1.08, 1.08);
+}
+
+.cursos {
+  text-decoration: underline;
+}

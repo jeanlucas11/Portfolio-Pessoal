@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #1e0239;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  width: 17vh;
+  background-color: #1e0239;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  transition: color 0.3s;
+}
+button:hover {
+  color: #12d640;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  width: 100vh;
+}
+
+.nome {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato {
+  margin-right: 30vh;
+  box-shadow: 7px 7px 20px #1e0220;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 800px;
+}
+
+.logoemail {
+  display: flex;
+  height: 5vh;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.email {
+  display: inline-block;
+  background-color: #270237;
+  width: 50vh;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.logonumero {
+  display: flex;
+  height: 5vh;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.numero {
+  display: inline-block;
+  background-color: #270237;
+  width: 50vh;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.emailenumero {
+  display: flex;
+  width: 100vh;
+  margin-left: 100vh;
+  padding: 20px;
+}
+
+.butSobre {
+  transition: transform 1s;
+  text-shadow: 13px 13px 13px #1e0220;
+}
+.butSobre:hover {
+  transform: scale(1.08, 1.08);
+}
+
+.butHome {
+  transition: transform 1s;
+  text-shadow: 13px 13px 13px #1e0220;
+}
+.butHome:hover {
+  transform: scale(1.08, 1.08);
+}
